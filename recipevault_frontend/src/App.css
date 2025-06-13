@@ -11,6 +11,9 @@
   --text-color: #242124;
   --text-secondary: #726059;
   --border-color: #e4dfdb;
+
+  /* Light theme gradient background */
+  --background-gradient: linear-gradient(135deg, #faf8f7 0%, #efebe7 15%, #e9e1db 30%, #6e4435 63%, #2f5bbc 90%, #1e4d8f 100%);
 }
 
 /* Dark theme variables */
@@ -25,15 +28,22 @@
   --text-color: #f2ebeb;
   --text-secondary: #c1b5ac;
   --border-color: #3c3341;
+
+  /* Dark theme gradient background */
+  --background-gradient: linear-gradient(135deg, #231812 0%, #2d2240 18%, #362c57 34%, #6e4435 59%, #86a5ed 83%, #6596e3 100%);
 }
 
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--base-bg);
+  background: var(--background-gradient);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: background 0.5s cubic-bezier(.4,0,.2,1);
 }
 
 .app {
