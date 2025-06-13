@@ -7,160 +7,59 @@
 <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
 <i> [webpack-dev-server] Content not from webpack is served from './public' directory
 Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
-asset bundle.js 1.39 MiB [emitted] (name: main)
+asset bundle.js 1.4 MiB [emitted] (name: main)
 asset index.html 1.92 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
 modules by path ./node_modules/ 1.24 MiB 31 modules
-modules by path ./src/ 10.3 KiB
-  modules by path ./src/*.css 7.49 KiB 4 modules
-  modules by path ./src/*.js 2.76 KiB
-    ./src/index.js 530 bytes [built] [code generated]
-    ./src/App.js 2.24 KiB [built] [code generated]
+modules by path ./src/ 15.6 KiB
+  modules by path ./src/*.js 7.99 KiB 5 modules
+  modules by path ./src/*.css 7.65 KiB
+    ./src/index.css 2.23 KiB [built] [code generated]
+    + 3 modules
 modules by path ./.ve/ 15.1 KiB
   modules by path ./.ve/*.js 10.6 KiB 2 modules
   modules by path ./.ve/*.css 2.93 KiB
     ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1883 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.4 MiB
-  asset bundle.js 1.39 MiB [emitted] (name: main)
-  asset main.89839c232fc138e09349.hot-update.js 4.77 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.89839c232fc138e09349.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.4 MiB = bundle.js 1.39 MiB main.89839c232fc138e09349.hot-update.js 4.77 KiB
-cached modules 1.26 MiB [cached] 41 modules
-runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/App.css 2.31 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 46 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.4 MiB
-  asset bundle.js 1.39 MiB [emitted] (name: main)
-  asset main.a50cf6bb70d6f3cf8b06.hot-update.js 7.25 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.a50cf6bb70d6f3cf8b06.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.4 MiB = bundle.js 1.39 MiB main.a50cf6bb70d6f3cf8b06.hot-update.js 7.25 KiB
-cached modules 1.26 MiB [cached] 41 modules
-runtime modules 27.5 KiB 14 modules
-./src/App.js 3.82 KiB [built] [code generated]
-
-ERROR in ./src/App.js 3:0-44
-Module not found: Error: Can't resolve './RecipeManager' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 4:0-40
-Module not found: Error: Can't resolve './AuthManager' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 5:0-42
-Module not found: Error: Can't resolve './RecipeSearch' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
- @ ./src/index.js 5:0-24 11:32-35
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.99.9 compiled with 3 errors in 56 ms
+webpack 5.99.9 compiled successfully in 1544 ms
 assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.41 MiB
   asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.9ed5ceee4cea6c377897.hot-update.js 9.62 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.9ed5ceee4cea6c377897.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.9ed5ceee4cea6c377897.hot-update.js 9.62 KiB
-cached modules 1.26 MiB [cached] 41 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 5.06 KiB
-  ./src/App.js 3.82 KiB [code generated]
-  ./src/RecipeManager.js 1.24 KiB [built] [code generated]
-
-ERROR in ./src/App.js 4:0-40
-Module not found: Error: Can't resolve './AuthManager' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
-resolve './AuthManager' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
-  using description file: /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    using description file: /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/package.json (relative path: ./src/AuthManager)
-      no extension
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/AuthManager doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/AuthManager.js doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/AuthManager.jsx doesn't exist
-      as directory
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/AuthManager doesn't exist
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./src/App.js 5:0-42
-Module not found: Error: Can't resolve './RecipeSearch' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
-resolve './RecipeSearch' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
-  using description file: /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    using description file: /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/package.json (relative path: ./src/RecipeSearch)
-      no extension
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch.js doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch.jsx doesn't exist
-      as directory
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch doesn't exist
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 2 errors in 60 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.41 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.a9355b3846fa48409f9f.hot-update.js 9.48 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.a9355b3846fa48409f9f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.a9355b3846fa48409f9f.hot-update.js 9.48 KiB
-cached modules 1.26 MiB [cached] 42 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 5.02 KiB
-  ./src/App.js 3.82 KiB [code generated]
-  ./src/AuthManager.js 1.21 KiB [built] [code generated]
-
-ERROR in ./src/App.js 5:0-42
-Module not found: Error: Can't resolve './RecipeSearch' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
-resolve './RecipeSearch' in '/home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src'
-  using description file: /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    using description file: /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/package.json (relative path: ./src/RecipeSearch)
-      no extension
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch.js doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch.jsx doesn't exist
-      as directory
-        /home/kavia/workspace/code-generation/recipevault-49131-f434922a/recipevault_frontend/src/RecipeSearch doesn't exist
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 51 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.41 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.0223473572ad9dd2a367.hot-update.js 9.4 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.0223473572ad9dd2a367.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.0223473572ad9dd2a367.hot-update.js 9.4 KiB
-cached modules 1.26 MiB [cached] 43 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 5.02 KiB
-  ./src/App.js 3.82 KiB [code generated]
-  ./src/RecipeSearch.js 1.21 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 45 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.41 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.ba5e322f0e03d24a0a29.hot-update.js 4.81 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.ba5e322f0e03d24a0a29.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.ba5e322f0e03d24a0a29.hot-update.js 4.81 KiB
+  asset main.7ee830cd01040ae8e6c1.hot-update.js 5.09 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.7ee830cd01040ae8e6c1.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.7ee830cd01040ae8e6c1.hot-update.js 5.09 KiB
 cached modules 1.27 MiB [cached] 44 modules
 runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/App.css 2.34 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 46 ms
+./node_modules/css-loader/dist/cjs.js!./src/App.css 2.61 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 73 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.db8cdd8f487f52226d13.hot-update.js 9.42 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.db8cdd8f487f52226d13.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.db8cdd8f487f52226d13.hot-update.js 9.42 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+./src/App.js 5.88 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 99 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.599de068a3cce8aaa1bc.hot-update.js 5.06 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.599de068a3cce8aaa1bc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.599de068a3cce8aaa1bc.hot-update.js 5.06 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+./node_modules/css-loader/dist/cjs.js!./src/App.css 2.58 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 51 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.5ac53699dd3c7f9c51d1.hot-update.js 5.06 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.5ac53699dd3c7f9c51d1.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.5ac53699dd3c7f9c51d1.hot-update.js 5.06 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+./node_modules/css-loader/dist/cjs.js!./src/App.css 2.57 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 48 ms

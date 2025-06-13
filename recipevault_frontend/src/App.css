@@ -11,13 +11,26 @@
   --text-color: #242124;
   --text-secondary: #726059;
   --border-color: #e4dfdb;
-  /* Remove any use of PUBLIC_URL */
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+  --primary: #d7bfb5;
+  --secondary: #86a5ed;
+  --accent: #6596e3;
+
+  --base-bg: #231812;
+  --base-surface: #151412;
+  --navbar-bg: #24160c;
+  --text-color: #f2ebeb;
+  --text-secondary: #c1b5ac;
+  --border-color: #3c3341;
 }
 
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--base-dark);
+  background-color: var(--base-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
